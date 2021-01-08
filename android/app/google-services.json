@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "363021582134",
+    "project_id": "phms-d3b87",
+    "storage_bucket": "phms-d3b87.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:363021582134:android:0c9a39dc04644d6d22bd97",
+        "android_client_info": {
+          "package_name": "com.example.homaworkmangement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "363021582134-asggevjcdigv9sda6v0r320s5ialtj7g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXpM9y1nk42yQh-CvYo6Evc4kKfmeT6eQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "363021582134-asggevjcdigv9sda6v0r320s5ialtj7g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:363021582134:android:5bc0cc221b487afe22bd97",
+        "android_client_info": {
+          "package_name": "com.example.home_work_lutter_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "363021582134-asggevjcdigv9sda6v0r320s5ialtj7g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXpM9y1nk42yQh-CvYo6Evc4kKfmeT6eQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "363021582134-asggevjcdigv9sda6v0r320s5ialtj7g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
