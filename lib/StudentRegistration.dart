@@ -214,27 +214,6 @@ class BackButtonWidget extends StatelessWidget {
           child: Stack(
         children: <Widget>[
           Positioned(
-              top: 20,
-              child: Row(
-                children: <Widget>[
-                  IconButton(
-                      icon: Icon(
-                        Icons.arrow_back_ios,
-                        color: Colors.white,
-                      ),
-                      onPressed: () {
-                        Navigator.of(context).pushReplacement(MaterialPageRoute(
-                            builder: (context) =>
-                                TeacherHome(uid: tid, name: tname)));
-                      }),
-                  Text(
-                    'Back',
-                    style: TextStyle(
-                        color: Colors.white, fontWeight: FontWeight.bold),
-                  )
-                ],
-              )),
-          Positioned(
             bottom: 20,
             child: Padding(
               padding: const EdgeInsets.all(8.0),

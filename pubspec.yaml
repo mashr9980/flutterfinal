@@ -44,7 +44,14 @@ dependencies:
   smart_select: ^4.3.2
   firebase_storage: ^5.2.0
   intl: ^0.16.1
-
+  file_picker: 1.4.3+2
+  path: ^1.7.0
+  http:
+  path_provider: ^1.6.27
+  percent_indicator: "^2.1.7+2"
+  ext_storage:
+  flutter_downloader:
+  permission_handler: ^4.3.0
 
 
 

@@ -3,7 +3,6 @@ import 'StudentRegistration.dart';
 import 'StudentsOfTeacher.dart';
 import 'HomeScreen.dart';
 import 'AssignHomeWork.dart';
-import 'StudentsOfTeacher.dart';
 
 class TeacherHome extends StatefulWidget {
   final String uid;

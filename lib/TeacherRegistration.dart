@@ -2,12 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:home_work_lutter_app/main.dart';
-//import 'package:homaworkmangement/main.dart';
 import 'AdminAfterLogin.dart';
 import 'package:smart_select/smart_select.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:firebase_core/firebase_core.dart';
 
 class TeacherSignUpScreen extends StatefulWidget {
   @override
@@ -194,14 +192,6 @@ class _TeacherSignUpScreenState extends State<TeacherSignUpScreen> {
       });
     }
 
-    /*final User firebaseUser = (await _firebaseAuth
-            .createUserWithEmailAndPassword(
-                email: emailTextEditingController.text,
-                password: passwordTextEditingController.text)
-            .catchError((erMsg) {
-      displayToastMessage("Error " + erMsg.toString(), context);
-    }))
-        .user;*/
     //DATA STORE ON  FIREBASE
     if (user != null) {
       Map userDataMap = {

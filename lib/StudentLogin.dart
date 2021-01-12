@@ -4,7 +4,6 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:firebase_database/firebase_database.dart';
 import 'package:home_work_lutter_app/main.dart';
-import 'AdminAfterLogin.dart';
 import 'HomeScreen.dart';
 import 'StudentAfterLogin.dart';
 
@@ -48,6 +47,7 @@ class _studentLoginState extends State<studentLogin> {
                     child: Container(
                         margin: EdgeInsets.only(right: 20, left: 10),
                         child: TextField(
+                          obscureText: true,
                           controller: passwordTextEditingController,
                           decoration: InputDecoration(hintText: 'Password'),
                         ))),
@@ -76,7 +76,7 @@ class _studentLoginState extends State<studentLogin> {
                   },
                   color: Color(0xFF00a79B),
                   child: Text(
-                    'SIGN IN',
+                    'LOGIN',
                     style: TextStyle(
                         color: Colors.white,
                         fontWeight: FontWeight.bold,
@@ -114,8 +114,9 @@ class _studentLoginState extends State<studentLogin> {
         if (variable1['Type'] == 'Student') {
           Navigator.of(context).pushReplacement(MaterialPageRoute(
               builder: (context) => StudentHome(
-                    uid: firebaseUser.uid,
+                    uid: variable1['UID'],
                     name: firebaseUser.displayName,
+                    sid: variable1['Sid'],
                   )));
           displayToastMessage(
               "Congratulations Your logged successfully", context);

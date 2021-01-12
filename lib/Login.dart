@@ -52,6 +52,7 @@ class _SignInScreenState extends State<SignInScreen> {
                       child: Container(
                           margin: EdgeInsets.only(right: 20, left: 10),
                           child: TextField(
+                            obscureText: true,
                             controller: passwordTextEditingController,
                             decoration: InputDecoration(hintText: 'Password'),
                           ))),
@@ -80,7 +81,7 @@ class _SignInScreenState extends State<SignInScreen> {
                     },
                     color: Color(0xFF00a79B),
                     child: Text(
-                      'SIGN IN',
+                      'LOGIN',
                       style: TextStyle(
                           color: Colors.white,
                           fontWeight: FontWeight.bold,
